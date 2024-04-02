@@ -68,3 +68,15 @@ Use the [included lab](./lab.md) for this week to apply the concepts you've lear
 - [Web Applications and Command-Line tools for Data Engineering](https://www.coursera.org/learn/web-app-command-line-tools-for-data-engineering-duke)
 - [Python and Pandas for Data Engineering](https://www.coursera.org/learn/python-and-pandas-for-data-engineering-duke)
 - [Scripting with Python and SQL for Data Engineering](https://www.coursera.org/learn/scripting-with-python-sql-for-data-engineering-duke)
+
+# my changes: setting up my codespace for the first time using devcontainer.json and Dockerfile
+
+## creating the workspace and changes in the workspace
+- I created the workspace using github
+- Then, I added a devcontainer (using the" >devcontainer ")
+- Made some changes to the devcontainer.json (like replacing the "image" with "build")
+- added some extensions to devcontainer.json
+- created the Dockerfile in the .devcontainer folder
+- added the FROM and RUN command
+## Rebuilding my changes
+- then i went to my vscode and inputed (">rebuild devcontainers") and it rebuild it
